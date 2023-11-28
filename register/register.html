@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="wrap-register">
+            <div class="wrap-register-sub">
+                <form method="post" action="index.php">
+                    <div class="row">
+                        <div class="birthday"><p>아이디</p></div>
+                        <input type="text" name="user_id" id="user_id" placeholder="아이디">
+                        <div class="birthday"><p>비밀번호</p></div>
+                        <input type="password" name="user_password" id="user_password" placeholder="패스워드">
+                        <div class="birthday"><p>닉네임</p></div>
+                        <input type="text" name="user_text" id="user_text" placeholder="닉네임">
+                        <div class="birthday"><p>생년월일</p></div>
+                        <input type="date" name="user_date" id="user_date">
+                        <button type="submit"  name="save" id="user_sumit">회원가입</button>
+                        <div class="alreday"><a href="../login.html">이미 회원이신가요? (로그인 페이지)</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
